@@ -1,0 +1,12 @@
+------------install [USB-wifi] (Realtek 8811cu 802.11ac driver)--------------
+
+kmod-rtw88-8821cu	6.6.110.6.12.52-r1
+
+usb-modeswitch	2022.02.24~3c8595a4-r1
+
+
+
+------------ remote acess (tailscale) ----------------
+tailscale	1.80.3-r1
+
+tailscale up --advertise-routes=192.168.0.0/16 --advertise-exit-node
