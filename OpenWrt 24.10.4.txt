@@ -7,7 +7,12 @@ usb-modeswitch	2022.02.24~3c8595a4-r1
 ------------ remote access (tailscale) ----------------
 tailscale	1.80.3-r1
 
+
+tailscale up
+
+
 tailscale up --advertise-routes=192.168.0.0/16 --advertise-exit-node
+
 
 
 ------- reset default instalation-----
